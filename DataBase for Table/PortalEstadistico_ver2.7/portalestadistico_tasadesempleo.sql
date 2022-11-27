@@ -1,0 +1,59 @@
+CREATE DATABASE  IF NOT EXISTS `portalestadistico` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `portalestadistico`;
+-- MySQL dump 10.13  Distrib 8.0.30, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: portalestadistico
+-- ------------------------------------------------------
+-- Server version	8.0.30
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `tasadesempleo`
+--
+
+DROP TABLE IF EXISTS `tasadesempleo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tasadesempleo` (
+  `ID_tasa` int NOT NULL AUTO_INCREMENT,
+  `ID_Anio` int NOT NULL,
+  `pais` int NOT NULL,
+  `Tasa` double NOT NULL,
+  PRIMARY KEY (`ID_tasa`),
+  KEY `fk_anios_idx` (`ID_Anio`),
+  KEY `fk_pais_idx` (`pais`),
+  CONSTRAINT `fk_anios` FOREIGN KEY (`ID_Anio`) REFERENCES `anio` (`ID_Anio`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `fk_pais` FOREIGN KEY (`pais`) REFERENCES `paises` (`ID_pais`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tasadesempleo`
+--
+
+LOCK TABLES `tasadesempleo` WRITE;
+/*!40000 ALTER TABLE `tasadesempleo` DISABLE KEYS */;
+INSERT INTO `tasadesempleo` VALUES (1,291,80,46),(2,292,80,31),(3,293,80,31),(4,294,80,33),(5,295,80,32),(6,296,80,44),(7,297,80,33),(8,298,80,4),(9,299,80,38),(10,300,80,38),(11,301,80,4),(12,302,80,4),(13,303,80,53),(14,304,80,6),(15,305,80,49),(16,306,80,36),(17,307,80,32),(18,308,80,32),(19,309,80,33),(20,310,80,41),(21,311,80,45),(22,312,80,38),(23,313,80,57),(24,314,80,71),(25,315,80,62),(26,316,80,67),(27,317,80,55),(28,318,80,57),(29,319,80,57),(30,320,80,84),(31,321,80,85);
+/*!40000 ALTER TABLE `tasadesempleo` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-11-26 20:35:32
