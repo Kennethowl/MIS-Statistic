@@ -1,0 +1,12 @@
+[{"ID_plantaciones":1, "id_region":11, "certificadas":25, "regeneracionNaturalCer":1, "cantidad_plantas":14075, "cantidadplantasregeneracionnatural":753850},
+ {"ID_plantaciones":2, "id_region":1, "certificadas":4, "regeneracionNaturalCer":2, "cantidad_plantas":2404, "cantidadplantasregeneracionnatural":4002187},
+ {"ID_plantaciones":3, "id_region":8, "certificadas":28, "regeneracionNaturalCer":3, "cantidad_plantas":22882, "cantidadplantasregeneracionnatural":3480577},
+ {"ID_plantaciones":4, "id_region":2, "certificadas":7, "regeneracionNaturalCer":9, "cantidad_plantas":769953, "cantidadplantasregeneracionnatural":6716863},
+ {"ID_plantaciones":5, "id_region":12, "certificadas":0, "regeneracionNaturalCer":2, "cantidad_plantas":0, "cantidadplantasregeneracionnatural":1197608},
+ {"ID_plantaciones":6, "id_region":5, "certificadas":0, "regeneracionNaturalCer":2, "cantidad_plantas":0, "cantidadplantasregeneracionnatural":8063525},
+ {"ID_plantaciones":7, "id_region":3, "certificadas":11, "regeneracionNaturalCer":2, "cantidad_plantas":48884, "cantidadplantasregeneracionnatural":1023329},
+ {"ID_plantaciones":8, "id_region":4, "certificadas":22, "regeneracionNaturalCer":0, "cantidad_plantas":16773, "cantidadplantasregeneracionnatural":0},
+ {"ID_plantaciones":9, "id_region":5, "certificadas":16, "regeneracionNaturalCer":4, "cantidad_plantas":29616, "cantidadplantasregeneracionnatural":8111807},
+ {"ID_plantaciones":10, "id_region":9, "certificadas":1, "regeneracionNaturalCer":0, "cantidad_plantas":1500, "cantidadplantasregeneracionnatural":0},
+ {"ID_plantaciones":11, "id_region":6, "certificadas":1, "regeneracionNaturalCer":0, "cantidad_plantas":134, "cantidadplantasregeneracionnatural":0},
+ {"ID_plantaciones":12, "id_region":7, "certificadas":8, "regeneracionNaturalCer":4, "cantidad_plantas":157927, "cantidadplantasregeneracionnatural":6400640}]

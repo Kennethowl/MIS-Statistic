@@ -1,0 +1,7 @@
+[{"ID_Centro":1, "Desc_Centro":"Hospital"},
+ {"ID_Centro":2, "Desc_Centro":"Clinica"},
+ {"ID_Centro":3, "Desc_Centro":"Farmacia"},
+ {"ID_Centro":4, "Desc_Centro":"Dentista"},
+ {"ID_Centro":5, "Desc_Centro":"Centro de Salud"},
+ {"ID_Centro":6, "Desc_Centro":"Doctores"},
+ {"ID_Centro":7, "Desc_Centro":"Otro"}]

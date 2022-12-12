@@ -1,0 +1,12 @@
+[{"ID_Mes":1, "Desc_Mes":"Enero"},
+ {"ID_Mes":2, "Desc_Mes":"Febrero"},
+ {"ID_Mes":3, "Desc_Mes":"Marzo"},
+ {"ID_Mes":4, "Desc_Mes":"Abril"},
+ {"ID_Mes":5, "Desc_Mes":"Mayo"},
+ {"ID_Mes":6, "Desc_Mes":"Junio"},
+ {"ID_Mes":7, "Desc_Mes":"Julio"},
+ {"ID_Mes":8, "Desc_Mes":"Agosto"},
+ {"ID_Mes":9, "Desc_Mes":"Septiembre"},
+ {"ID_Mes":10, "Desc_Mes":"Octubre"},
+ {"ID_Mes":11, "Desc_Mes":"Noviembre"},
+ {"ID_Mes":12, "Desc_Mes":"Diciembre"}]
